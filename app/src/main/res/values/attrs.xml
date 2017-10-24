@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundIndicatorView">
+        <attr name="maxNum" format="integer"/>
+        <attr name="currentNum" format="integer"/>
+        <attr name="arcInWidth" format="integer"/>
+        <attr name="arcOutWidth" format="integer"/>
+    </declare-styleable>
+</resources>

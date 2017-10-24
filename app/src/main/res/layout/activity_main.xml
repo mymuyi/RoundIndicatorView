@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roundindicatorview.MainActivity">
+
+    <com.example.roundindicatorview.RoundIndicatorView
+        android:id="@+id/round"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#ff6345"
+        app:maxNum="800"
+        app:currentNum="500"
+        app:arcOutWidth="10"
+        app:arcInWidth="30">
+    </com.example.roundindicatorview.RoundIndicatorView>
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"/>
+
+</LinearLayout>
